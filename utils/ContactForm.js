@@ -53,7 +53,7 @@ const ContactForm = () => {
 
         try {
             const response = await axios.post(
-                'https://beta.upfront.global/wp-json/contact-form-7/v1/contact-forms/8/feedback',
+                'https://beta.nobleplastics.org/wp-json/contact-form-7/v1/contact-forms/8/feedback',
                 formData,
                  {
                     headers: {

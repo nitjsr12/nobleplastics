@@ -36,6 +36,12 @@ function Footer() {
 
           </Col>
         </Row>
+        <Row>
+          <Col>
+          
+          
+          </Col>
+        </Row>
       </Container>
     </>
   );
