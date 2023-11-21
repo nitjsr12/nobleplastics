@@ -868,8 +868,13 @@ h3.t-banner {
 }
 .vertical-line {
   border-right: 0px solid rgb(255, 255, 255);
-  height: 230px!important;
-  margin: 0 0px;
 }
-
+button.d-lg-none.btn.btn-outline-light {
+  background-color: #a6ce41!important;
+  color: black!important;
+  font-size: 20px!important;
+  font-weight: 400!important;
+  border: 0;
+  font-family: 'Lato'!important;
+}
 }
