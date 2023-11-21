@@ -1,41 +1,33 @@
-import React, { useState } from 'react';
+import React from 'react'
+import {Carousel} from 'react-bootstrap';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Navbar, Container, Nav, Offcanvas, Button } from 'react-bootstrap';
+import { Navbar, Container, Nav } from 'react-bootstrap';
+import { images } from '@/next.config';
 
 
 function Header() {
-    const [showOffcanvas, setShowOffcanvas] = useState(false);
-
-    const handleOffcanvasClose = () => setShowOffcanvas(false);
-    const handleOffcanvasToggle = () => setShowOffcanvas((prev) => !prev);
-  
-
   return (
-    <>
     <Navbar bg="transparent" variant="dark" expand="lg" className="fixed-top">
       <Container>
-        <Navbar.Brand href="/"><Image
-          className="img_logo "
+        <Navbar.Brand href=""><Image
+          className=" "
           src="./images/Noble-logo.svg"
           alt="logo"
           width={300}
           height={80}
         /></Navbar.Brand>
-          <Nav className='ml-auto d-xs-none'>
-            <Nav.Link href="/about-us" >About</Nav.Link>
+        <Navbar.Toggle aria-controls="navbarNav" />
+        <Navbar.Collapse id="navbarNav" className="justify-content-end">
+          <Nav className=''>
+            <Nav.Link href="/about" >About</Nav.Link>
             <Nav.Link href="/approach" >Approach</Nav.Link>
             <Nav.Link href="/work" >Work</Nav.Link>
             <Nav.Link href="/impact" >Impact</Nav.Link>
           </Nav>
-          <Button
-            variant="outline-light"
-            onClick={handleOffcanvasToggle}
-            className="d-lg-none" // Hide the button on larger screens (desktop)
-          >
-            Menu
-          </Button>
+        </Navbar.Collapse>
       </Container>
+
       <style jsx>{`
         .navbar {
           background-color: rgba(0, 0, 0, 0.5); /* Set the background color with transparency */
@@ -43,33 +35,9 @@ function Header() {
         .navbar-brand {
           color: #fff; /* Set the color of the brand/logo */
         }
+      
       `}</style>
     </Navbar>
-
-    <Offcanvas show={showOffcanvas} onHide={handleOffcanvasClose} placement="end">
-        <Offcanvas.Header closeButton>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          <Nav className="flex-column">
-            <Nav.Link href="/" onClick={handleOffcanvasClose}className='mob-nav' >
-            Home
-            </Nav.Link>
-            <Nav.Link href="/about-us" onClick={handleOffcanvasClose} className='mob-nav'>
-            About
-            </Nav.Link>
-            <Nav.Link href="/approach" onClick={handleOffcanvasClose} className='mob-nav'>
-            Approach
-            </Nav.Link>
-            <Nav.Link href="/work" onClick={handleOffcanvasClose} className='mob-nav'>
-            Work
-            </Nav.Link>
-            <Nav.Link href="/impact" onClick={handleOffcanvasClose}className='mob-nav'>
-            Impact
-            </Nav.Link>
-          </Nav>
-        </Offcanvas.Body>
-      </Offcanvas>
-    </>
 
 
   )

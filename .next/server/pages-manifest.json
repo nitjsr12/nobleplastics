@@ -2,8 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/about-us": "pages/about-us.js",
+  "/work": "pages/work.js",
   "/approach": "pages/approach.js",
-  "/work": "pages/work.js"
+  "/about-us": "pages/about-us.js",
+  "/impact": "pages/impact.js",
+  "/": "pages/index.js"
 }
