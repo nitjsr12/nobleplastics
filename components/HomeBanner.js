@@ -21,7 +21,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <Image
           className="d-block w-100"
-          src="./images/banner2.png.png"
+          src="./images/banner-2.png"
           alt="Second slide"
         />
       </Carousel.Item>
