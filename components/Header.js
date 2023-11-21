@@ -10,7 +10,7 @@ function Header() {
   return (
     <Navbar bg="transparent" variant="dark" expand="lg" className="fixed-top">
       <Container>
-        <Navbar.Brand href=""><Image
+        <Navbar.Brand href="/"><Image
           className=" "
           src="./images/Noble-logo.svg"
           alt="logo"
@@ -20,7 +20,7 @@ function Header() {
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav" className="justify-content-end">
           <Nav className=''>
-            <Nav.Link href="/about" >About</Nav.Link>
+            <Nav.Link href="/about-us" >About</Nav.Link>
             <Nav.Link href="/approach" >Approach</Nav.Link>
             <Nav.Link href="/work" >Work</Nav.Link>
             <Nav.Link href="/impact" >Impact</Nav.Link>
