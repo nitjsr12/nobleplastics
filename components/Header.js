@@ -23,7 +23,7 @@ function Header() {
           height={80}
         /></Navbar.Brand>
           <Nav className='ml-auto d-xs-none'>
-            <Nav.Link href="/about" >About</Nav.Link>
+            <Nav.Link href="/about-us" >About</Nav.Link>
             <Nav.Link href="/approach" >Approach</Nav.Link>
             <Nav.Link href="/work" >Work</Nav.Link>
             <Nav.Link href="/impact" >Impact</Nav.Link>
@@ -48,14 +48,13 @@ function Header() {
 
     <Offcanvas show={showOffcanvas} onHide={handleOffcanvasClose} placement="end">
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Menu</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="flex-column">
             <Nav.Link href="/" onClick={handleOffcanvasClose}className='mob-nav' >
             Home
             </Nav.Link>
-            <Nav.Link href="/about" onClick={handleOffcanvasClose} className='mob-nav'>
+            <Nav.Link href="/about-us" onClick={handleOffcanvasClose} className='mob-nav'>
             About
             </Nav.Link>
             <Nav.Link href="/approach" onClick={handleOffcanvasClose} className='mob-nav'>
