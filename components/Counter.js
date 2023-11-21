@@ -1,6 +1,7 @@
 import CountUp from "react-countup";
 import { Image, Container, Col, Row,Card } from "react-bootstrap";
 import React from "react";
+import Link from "next/link";
 
 function counter() {
   return (

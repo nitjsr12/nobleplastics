@@ -14,26 +14,27 @@ body{
 
 /* banner */
 img.logo {
-  width: 100%!important;
+  width: 300px!important;
+  height: 80px!important;
 }
-li.nav-item {
-  font-family: lato,Sans-serif;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 22px;
-  padding-left: 30px;
-  padding-right: 30px;
+.navbar-nav .nav-link {
+  font-family: lato,Sans-serif!important;
+  font-size: 22px!important;
+  font-weight: 500!important;
+  line-height: 22px!important;
+  padding-left: 30px!important;
+  padding-right: 30px!important;
   color:#fff!important;
 }
-li.nav-item a{
+.navbar-nav .nav-link {
   color:#ffffff!important;
 
 }
 
-li.nav-item a:hover{
+.navbar-nav .nav-link:hover{
   color: #a6ce41!important;
 }
-li.nav-item a:focus{
+.navbar-nav .nav-link :focus{
   color: #a6ce41!important;
   fill: #a6ce41!important;
 }
@@ -42,20 +43,32 @@ li.nav-item:hover::after {
   fill: #a6ce41!important;
   background-color: #A6CE41!important;
 }
-
-
-
 .banner-text {
   position: absolute;
   top: 375px;
   right: 0;
   width: 500px;
-  height: 150px;
+  height: 180px;
   /* border: 3px solid #73AD21; */
   color: white;
   z-index: 1;
-  padding: 20px 10px 40px 60px;
+  padding: 30px 10px 40px 60px;
   background: #00A0E3;
+}
+
+h3.t-banner {
+  color: #FFFFFF;
+  font-family: "Lato", Sans-serif;
+  font-size: 45px;
+  font-weight: 400!important;
+  line-height: 40px;
+}
+p.p-banner{
+    color: #FFFFFF;
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: 400!important;
+    line-height: 22px;
 }
 
 .overlay-content {
@@ -269,6 +282,9 @@ p.impact-text {
     
   
 }
+.c-impact:hover{
+  background-color: #000!important;
+}
 
   .impact-c{
     display: inline-flex!important;
@@ -321,7 +337,6 @@ button.btn-impact {
   border-width: 2px!important;
   border-color: #a6ce41!important;
   border-radius: 35px 35px 35px 35px!important;
-  margin-top: 75px!important;
 }
 
 .p-journey {
@@ -629,13 +644,41 @@ p.f-title {
   font-size: 20px!important;
 
 }
+
+.list-group-horizontal {
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-horizontal-list {
+  background-color: transparent!important;
+  border: 0!important;
+  font-family: "Lato", Sans-serif!important;
+    font-size: 18px!important;
+    font-weight: 600!important;
+    color: #BABABA !important;
+}
 /* mobile design start here */
 
 @media(max-width: 600px) {
-  img.logo {
-    width: 50%!important;
+  .img_logo {
+    width: 200px!important;
   
 }
+.navbar-nav {
+  display: none!important;
+}
+.offcanvas-body {
+  background-color: black!important;
+  text-align: -webkit-center!important;
+}
+a.mob-nav.nav-link {
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Lato';
+  font-weight: 500!important;
+  line-height: 40px!important
+}
+
 .carousel-inner {
   position: relative;
   width: 100%;

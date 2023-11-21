@@ -1,7 +1,9 @@
 import React from "react";
 import { Carousel, Image, Row, Col, Container } from "react-bootstrap";
 import Link from "next/link";
+import { ListGroup } from 'react-bootstrap';
 import Contact from '../utils/ContactForm'
+
 
 function Footer() {
   return (
@@ -37,8 +39,17 @@ function Footer() {
           </Col>
         </Row>
         <Row>
-          <Col>
-          
+          <Col className="border-top border-bottom py-4">
+          <ListGroup horizontal>
+          <ListGroup.Item className="footer-horizontal-list " >
+          <Link href="/about-us">About</Link></ListGroup.Item>
+        <ListGroup.Item className="footer-horizontal-list">
+        <Link  href="/approach">Approach</Link></ListGroup.Item>
+         <ListGroup.Item className="footer-horizontal-list">
+         <Link  href="/work">Work</Link></ListGroup.Item>
+          <ListGroup.Item className="footer-horizontal-list">
+          <Link  href="/impact">Impact</Link></ListGroup.Item>
+          </ListGroup>
           
           </Col>
         </Row>

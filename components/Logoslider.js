@@ -37,7 +37,6 @@ function LinksExample() {
 
 
   return (
-        
 <Container className="f_content text-center p-3 mt-6">
 <div className="unique_text">
           <h2>

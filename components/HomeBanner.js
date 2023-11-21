@@ -7,8 +7,8 @@ function UncontrolledExample() {
   return (
     <>
     <div className='banner-text'>
-        <h3>noble plastics</h3>
-        <p>An eco-social initiative by the Catalyst Group that champions the effective use of plastic waste, while promoting the well-being of people and the planet.</p>
+        <h3 className='t-banner'>noble plastics</h3>
+        <p className='p-banner'>An eco-social initiative by the Catalyst Group that champions the effective use of plastic waste, while promoting the well-being of people and the planet.</p>
       </div>
     <Carousel>
       <Carousel.Item>

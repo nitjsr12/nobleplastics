@@ -1,38 +1,77 @@
-import React from 'react'
-import {Carousel} from 'react-bootstrap';
+import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image'
+import Image from 'next/image';
+import { Navbar, Container, Nav, Offcanvas, Button } from 'react-bootstrap';
 
 
 function Header() {
+    const [showOffcanvas, setShowOffcanvas] = useState(false);
+
+    const handleOffcanvasClose = () => setShowOffcanvas(false);
+    const handleOffcanvasToggle = () => setShowOffcanvas((prev) => !prev);
+  
+
   return (
-    <div >
-     <nav className="navbar fixed-not navbar-expand-lg navbar-light justify-content-center  ">
-    <div className="container"><Link className="nav-link" href="/">
-    <Image src="./images/Noble-logo.svg" className="logo" alt="..." width={400} height={100}/>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
-            <span className="navbar-toggler-icon"></span>
-        </button></Link>
-        <div className="navbar-collapse collapse w-100" id="collapsingNavbar3">
-            
-            <ul className="nav navbar-nav ms-auto w-100 justify-content-end">
-                <li className="nav-item">
-                    <Link className="nav-link" href="/about-us">About</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link" href="/approach">Approach</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link" href="/work">Work</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link" href="/impact">Impact</Link>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-</div>
+    <>
+    <Navbar bg="transparent" variant="dark" expand="lg" className="fixed-top">
+      <Container>
+        <Navbar.Brand href="/"><Image
+          className="img_logo "
+          src="./images/Noble-logo.svg"
+          alt="logo"
+          width={300}
+          height={80}
+        /></Navbar.Brand>
+          <Nav className='ml-auto d-xs-none'>
+            <Nav.Link href="/about" >About</Nav.Link>
+            <Nav.Link href="/approach" >Approach</Nav.Link>
+            <Nav.Link href="/work" >Work</Nav.Link>
+            <Nav.Link href="/impact" >Impact</Nav.Link>
+          </Nav>
+          <Button
+            variant="outline-light"
+            onClick={handleOffcanvasToggle}
+            className="d-lg-none" // Hide the button on larger screens (desktop)
+          >
+            Menu
+          </Button>
+      </Container>
+      <style jsx>{`
+        .navbar {
+          background-color: rgba(0, 0, 0, 0.5); /* Set the background color with transparency */
+        }
+        .navbar-brand {
+          color: #fff; /* Set the color of the brand/logo */
+        }
+      `}</style>
+    </Navbar>
+
+    <Offcanvas show={showOffcanvas} onHide={handleOffcanvasClose} placement="end">
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Menu</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          <Nav className="flex-column">
+            <Nav.Link href="/" onClick={handleOffcanvasClose}className='mob-nav' >
+            Home
+            </Nav.Link>
+            <Nav.Link href="/about" onClick={handleOffcanvasClose} className='mob-nav'>
+            About
+            </Nav.Link>
+            <Nav.Link href="/approach" onClick={handleOffcanvasClose} className='mob-nav'>
+            Approach
+            </Nav.Link>
+            <Nav.Link href="/work" onClick={handleOffcanvasClose} className='mob-nav'>
+            Work
+            </Nav.Link>
+            <Nav.Link href="/impact" onClick={handleOffcanvasClose}className='mob-nav'>
+            Impact
+            </Nav.Link>
+          </Nav>
+        </Offcanvas.Body>
+      </Offcanvas>
+    </>
+
 
   )
 }
