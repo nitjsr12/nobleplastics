@@ -6,7 +6,7 @@ import {Carousel, Image, Row, Col, Container} from 'react-bootstrap';
 function Approachbanner() {
   return (
     <>
-<Container style={{backgroundImage: `url("/images/a-banner.png")`}} fluid className="h-banner d-flex">
+<Container style={{backgroundImage: `url("/images/about-banner.jpeg")`}} fluid className="h-banner d-flex">
 <Container className="text-white d-flex flex-column justify-content-center">
 <Row><Col lg={6} sm={12}>
 <h1 className="fs-1">The Noble Plastics Approach</h1>

@@ -11,6 +11,7 @@ function approach() {
   return (
     <>
     <Head>
+    <link rel="icon" href="./images/noble-plastic-favicon.webp" />
         <title>
         Providing practical solutions backed by quantifiable results
         </title>

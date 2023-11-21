@@ -11,6 +11,7 @@ function impact() {
   return (
     <div>
        <Head>
+       <link rel="icon" href="./images/noble-plastic-favicon.webp" />
         <title>
         Achieving social development through synergising people
         </title>

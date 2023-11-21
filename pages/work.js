@@ -9,6 +9,7 @@ function work() {
   return (
     <div>
        <Head>
+       <link rel="icon" href="./images/noble-plastic-favicon.webp" />
         <title>
         Working to create a Circular Economy of plastic
         </title>

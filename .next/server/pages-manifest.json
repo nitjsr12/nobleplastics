@@ -5,6 +5,5 @@
   "/": "pages/index.js",
   "/about-us": "pages/about-us.js",
   "/approach": "pages/approach.js",
-  "/work": "pages/work.js",
-  "/impact": "pages/impact.js"
+  "/work": "pages/work.js"
 }

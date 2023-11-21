@@ -13,6 +13,7 @@ function aboutUs() {
   return (
     <>
     <Head>
+    <link rel="icon" href="./images/noble-plastic-favicon.webp" />
         <title>
         Eco-social initiative that improves plastic waste management
         </title>

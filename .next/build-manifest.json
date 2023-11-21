@@ -37,11 +37,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/approach.js"
     ],
-    "/impact": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/impact.js"
-    ],
     "/work": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

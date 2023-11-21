@@ -19,6 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
+      <link rel="icon" href="./images/noble-plastic-favicon.webp" />
         <title>
           Eco-social initiative promoting sustainable management of plastic
         </title>
