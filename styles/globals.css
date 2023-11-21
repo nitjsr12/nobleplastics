@@ -866,5 +866,10 @@ h3.t-banner {
   text-align: center;
   margin-left: 0px;
 }
+.vertical-line {
+  border-right: 0px solid rgb(255, 255, 255);
+  height: 230px!important;
+  margin: 0 0px;
+}
 
 }
