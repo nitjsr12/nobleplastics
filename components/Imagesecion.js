@@ -8,9 +8,8 @@ function Imagesecion() {
           <Col lg={4} className=' text-center'>
           <Image
                 src="./images/img_1.jpeg"
-                className=" img_1"
+                className=" image-home"
                 alt="..."
-                className= "image-home"
                 width={400}
                 height={500}
                 
@@ -19,7 +18,6 @@ function Imagesecion() {
           <Col lg={4} className=' text-center'>
           <Image
                 src="./images/img_2.jpeg"
-                className="img_2 "
                 alt="..."
                 className= "image-home"
                 width={400}
@@ -29,7 +27,6 @@ function Imagesecion() {
           <Col lg={4} className=' text-center'>
           <Image
                 src="./images/img_3.jpeg"
-                className="img_3 "
                 alt="..."
                 className= "image-home"
                 width={400}
