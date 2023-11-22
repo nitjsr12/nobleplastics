@@ -10,6 +10,7 @@ function Imagesecion() {
                 src="./images/img_1.jpeg"
                 className=" image-home"
                 alt="..."
+                className= "image-home"
                 width={400}
                 height={500}
                 

@@ -27,10 +27,17 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+<<<<<<< HEAD
     "/about-us": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/about-us.js"
+=======
+    "/impact": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/impact.js"
+>>>>>>> 3d8ad141d083203b1b31823ff2b0881e5784b155
     ]
   },
   "ampFirstPages": []
