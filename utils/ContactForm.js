@@ -92,7 +92,7 @@ type="text"
 name="fullName"
 className="form-control"
 id="fullName"
-placeholder="Full Name"
+placeholder=""
 value={formData.fullName}
 onChange={handleChange}
 />
@@ -110,7 +110,7 @@ type="text"
 name="businessEmail"
 className="form-control"
 id="businessEmail"                                
-placeholder="Email"
+placeholder=""
 value={formData.businessEmail}
 onChange={handleChange}
 /></div>
@@ -134,7 +134,7 @@ onChange={handleChange}
                     <Row>
 <Col sm={12}>
 <button type="submit" className="btn  btn-block mb-4 footer-button" disabled={isSubmitting}>
-Send Message
+SUBMIT
                             { isSubmitting &&
                                 <RotatingLines
                                     strokeColor="white"

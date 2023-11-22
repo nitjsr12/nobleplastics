@@ -6,7 +6,7 @@ import {Carousel, Image, Container, Row, Col} from 'react-bootstrap';
 function UncontrolledExample() {
   return (
     <>
-    <div className='banner-text'>
+    <div className='banner-text d-none d-lg-block'>
         <h3 className='t-banner'>noble plastics</h3>
         <p className='p-banner'>An eco-social initiative by the Catalyst Group that champions the effective use of plastic waste, while promoting the well-being of people and the planet.</p>
       </div>
@@ -33,7 +33,10 @@ function UncontrolledExample() {
         />
       </Carousel.Item>
     </Carousel>
-  
+    <div className='banner-text-mob d-sm-block d-lg-none'>
+        <h3 className='t-banner'>noble plastics</h3>
+        <p className='p-banner'>An eco-social initiative by the Catalyst Group that champions the effective use of plastic waste, while promoting the well-being of people and the planet.</p>
+      </div>
     </>
   );
 };

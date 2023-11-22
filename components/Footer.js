@@ -41,14 +41,14 @@ function Footer() {
         <Row>
           <Col className="border-top border-bottom py-4">
           <ListGroup horizontal>
-          <ListGroup.Item className="footer-horizontal-list " >
-          <Link href="/about-us">About</Link></ListGroup.Item>
-        <ListGroup.Item className="footer-horizontal-list">
-        <Link  href="/approach">Approach</Link></ListGroup.Item>
-         <ListGroup.Item className="footer-horizontal-list">
-         <Link  href="/work">Work</Link></ListGroup.Item>
-          <ListGroup.Item className="footer-horizontal-list">
-          <Link  href="/impact">Impact</Link></ListGroup.Item>
+         <ListGroup.Item className="bg-transparent border-0" > 
+          <Link href="/about-us" className="footer-horizontal-list">About</Link></ListGroup.Item>
+        <ListGroup.Item  className="bg-transparent border-0">
+        <Link  href="/approach" className="footer-horizontal-list ">Approach</Link></ListGroup.Item>
+         <ListGroup.Item className="bg-transparent border-0" >
+         <Link  href="/work" className="footer-horizontal-list ">Work</Link></ListGroup.Item>
+          <ListGroup.Item className="bg-transparent border-0" >
+          <Link  href="/impact" className="footer-horizontal-list ">Impact</Link></ListGroup.Item>
           </ListGroup>
           
           </Col>
