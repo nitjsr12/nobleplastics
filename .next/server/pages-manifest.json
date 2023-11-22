@@ -3,6 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/impact": "pages/impact.js",
-  "/about-us": "pages/about-us.js"
+  "/about-us": "pages/about-us.js",
+  "/impact": "pages/impact.js"
 }
