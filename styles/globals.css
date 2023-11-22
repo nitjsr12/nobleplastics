@@ -436,6 +436,16 @@ p.p-role {
   font-weight: 600;
   text-align: center;
 }
+
+.btn-humburger{
+  background: #fff !important;
+    border-radius: 50px !important;
+    height: 55px;
+    width: 55px;
+}
+.logo-img{
+  width:300px;
+}
 .i-team{
   width: 200px!important;
 }
@@ -645,6 +655,7 @@ p.f-title {
 
 }
 
+
 .list-group-horizontal {
   flex-direction: row;
   justify-content: center;
@@ -653,19 +664,41 @@ p.f-title {
   background-color: transparent!important;
   border: 0!important;
   font-family: "Lato", Sans-serif!important;
-    font-size: 18px!important;
-    font-weight: 600!important;
-    color: #BABABA !important;
+  font-size: 18px!important;
+  font-weight: 600!important;
+  color: #BABABA !important;
+  text-decoration: none!important;
+
+}
+.owl-stage-outer{
+  text-align: -webkit-center!important;
+
+}
+nav.navbar.fixed-not.navbar-expand-lg.navbar-light {
+  flex-flow: nowrap!important;
+}
+.form-label {
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600!important;
 }
 /* mobile design start here */
 
 @media(max-width: 600px) {
-  .img_logo {
-    width: 200px!important;
-  
+
+
+
+.logo-img {
+  width: 248px;
 }
-.navbar-nav {
-  display: none!important;
+.banner-text-mob {
+  width: 430px;
+  height: 180px;
+  color: white;
+  z-index: 1;
+  padding: 23px 35px 40px 20px;
+  background: #00A0E3;
 }
 .offcanvas-body {
   background-color: black!important;
@@ -830,8 +863,8 @@ hr.new-1 {
   width: 100%!important;
   height: 500px!important;
 }
-.carousel-indicators [data-bs-target] {
-  display: none!important ;
+img.image-home {
+  width: 350px;
 }
 .banner-text {
   position: absolute;
@@ -876,5 +909,30 @@ button.d-lg-none.btn.btn-outline-light {
   font-weight: 400!important;
   border: 0;
   font-family: 'Lato'!important;
+}
+.menu-off{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30% !important;
+  line-height: 60px;
+}
+.offcanvas {
+  background-color: #000 !important;
+  color:#fff !important;
+}
+
+.menu-off ul li{
+  list-style-type: none;
+  }
+  ul.nav.nav-pills.menu {
+    margin-right: 0px !important;
+    display: contents;
+  }
+  .nav-link {
+    color: #fff!important;
+}
+.img-fluid, .img-thumbnail {
+  max-width: 100%;
+  height: auto;
 }
 }
