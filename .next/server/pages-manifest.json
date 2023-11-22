@@ -3,10 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-<<<<<<< HEAD
-  "/about-us": "pages/about-us.js",
-=======
-  "/approach": "pages/approach.js",
->>>>>>> 3d8ad141d083203b1b31823ff2b0881e5784b155
-  "/impact": "pages/impact.js"
+  "/about-us": "pages/about-us.js"
 }

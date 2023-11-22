@@ -108,8 +108,8 @@ function counter() {
           <Col>
             {" "}
             <div className="col-12 d-flex justify-content-center align-items-center ">
-              <button type="button" class="btn btn-impact">
-                LEARN MORE
+              <button type="button" class="btn btn-impact"><Link href="/impact"> LEARN MORE</Link>
+                
               </button>
             </div>
           </Col>

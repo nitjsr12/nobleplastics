@@ -11,6 +11,7 @@ body{
   background-color: transparent !important;
   box-shadow: none !important;
 }
+ 
 
 /* banner */
 img.logo {
@@ -337,6 +338,11 @@ button.btn-impact {
   border-width: 2px!important;
   border-color: #a6ce41!important;
   border-radius: 35px 35px 35px 35px!important;
+}
+button.btn-impact a{
+  color: #fff !important;
+  text-decoration: none !important;
+
 }
 
 .p-journey {
@@ -757,6 +763,10 @@ img.about_img {
   font-size: 14px!important;
   padding: 15px 40px!important;
   
+}
+button.btn.btn-outline-primary.btn-about a {
+  color: #000!important;
+  text-decoration: none;
 }
 .unique_text h2 {
   margin-bottom: 6px;

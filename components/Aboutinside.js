@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
+import Link from 'next/link';
 import React from 'react'
 import {Carousel, Image, Container, Col} from 'react-bootstrap';
 
@@ -20,7 +21,7 @@ function Aboutinside() {
         </p>
 <p>An incubation of the <strong>Catalyst Group</strong>, Noble Plastics works in line with the UN SDGs by integrating sustainability and social responsibility into supply chains across the apparel industry, while benefiting people and the planet.
 </p>
-<button type="button" className="btn btn-outline-primary btn-about">LEARN MORE</button>
+<button type="button" className="btn btn-outline-primary btn-about" > <Link href="/about-us"> LEARN MORE </Link> </button> 
 </div>    
     </div>
     </div>
