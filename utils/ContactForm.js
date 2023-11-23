@@ -150,7 +150,7 @@ SUBMIT
 {error && <p className="error">{error}</p>}
 </form>
             ) : (
-                    <Container>
+                    <Container className='thanu-msg'>
                         <h2>Thank you for you interest</h2>
                         <p>We will get back to you soon.</p>
                 </Container>

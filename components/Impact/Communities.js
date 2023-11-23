@@ -24,14 +24,10 @@ function Communities() {
         <Col lg={4}>
         <Image
               src="./images/Mask-Group.webp"
-              class="card-img-top "
+              class="card-img-top img-fluid "
               alt="..."
             />
-        <Image
-              src="./images/cricles.svg"
-              className="card-img-top cricle-2 d-md-block d-none"
-              alt="..."
-            />
+        
         </Col>
         <hr className='hr-1'/>
         </Row>
@@ -56,12 +52,7 @@ Having never believed in a stable job, Sanjay has changed over half a dozen jobs
         <Col lg={4}>
         <Image
               src="./images/Mask-Group-1.webp"
-              class="card-img-top"
-              alt="..."
-            />
-        <Image
-              src="./images/cricles.svg"
-              className="card-img-top cricle-3 d-md-block d-none"
+              className="card-img-top img-fluid"
               alt="..."
             />
         </Col>
@@ -86,12 +77,7 @@ A 24-year-old resident of Gulbarga colony, G. Satyavani, counts herself to be a 
         <Col lg={4}>
         <Image
               src="./images/Mask-Group-2.webp"
-              class="card-img-top"
-              alt="..."
-            />
-        <Image
-              src="./images/cricles.svg"
-              className="card-img-top cricle-2 d-md-block d-none"
+              className="card-img-top img-fluid"
               alt="..."
             />
         </Col>
@@ -110,14 +96,10 @@ A 24-year-old resident of Gulbarga colony, G. Satyavani, counts herself to be a 
         
         <Image
               src="./images/mask-group-3.webp"
-              class="card-img-top"
+              className="card-img-top img-fluid"
               alt="..."
             />
-             <Image
-              src="./images/cricles.svg"
-              className="card-img-top cricle-3 d-md-block d-none"
-              alt="..."
-            />
+      
         </Col>
         <hr className='hr-1'/>
         </Row>
@@ -131,15 +113,10 @@ A 24-year-old resident of Gulbarga colony, G. Satyavani, counts herself to be a 
             <p className='mb-4'>Meher is all of 19 years old and with a spark in her eyes and smile on her face, she has been working everyday for the past two and a half years at the hanger sorting unit. “My day starts early in the morning and I report here everyday by 9 AM.”, says Meher. Meher along with 7 other women sit on the sorting tables to thoroughly check each hanger and segregate it based on the different sizes and the condition of the hangers. The broken ones go for recycling whereas the good ones go back to stores for reuse.” says Meher. “We know exactly what goes where. We also now train and help any new joinees. I really like the work environment, people here and look forward to coming to work everyday.”, Meher adds..</p>
             <p className='mb-4'>It has been three years since Noble Plastics started its operations in the form of the hanger sorting unit in Bengaluru and Delhi in collaboration with Marks and Spencers (M&S) and everyday since then, it has been contributing not only in making the planet a better place for people but has also been giving purpose and meaning to the lives of many like Meher and Srinivas</p>
         </Col>
-        <Col lg={4}>
+        <Col lg={4} sm={12}>
         <Image
               src="./images/1.png.webp"
-              class="card-img-top"
-              alt="..."
-            />
-        <Image
-              src="./images/cricles.svg"
-              className="card-img-top cricle-2 d-md-block d-none"
+              class="card-img-top img-fluid"
               alt="..."
             />
         </Col>

@@ -14,7 +14,7 @@ function Header() {
     className="img-fluid logo-img"/>
     </Link>
 
-        <div className="d-none d-lg-block ">)
+        <div className="d-none d-lg-block ">
             <ul className="nav navbar-nav ms-auto w-100 justify-content-end">
                 <li className="nav-item">
                     <Link className="nav-link" href="/about-us">About</Link>

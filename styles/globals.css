@@ -593,6 +593,12 @@ hr.new-1 {
   line-height: 26px;
 }
 
+.thanu-msg{
+  color: #fff;;
+}
+.error{
+  color:#A6CE41!important
+}
 .cricle-2 {
   width: 160px!important;
   position: absolute!important;
