@@ -24,7 +24,7 @@ function Communities() {
         <Col lg={4}>
         <Image
               src="./images/Mask-Group.webp"
-              class="card-img-top img-fluid "
+              className="card-img-top img-fluid "
               alt="..."
             />
         
