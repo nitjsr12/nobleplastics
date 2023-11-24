@@ -7,9 +7,9 @@ function Journey() {
     <>
     <Container className="text-center " fluid> 
     <div className="unique_text">
-          <h2>
+          <h1>
             Our <span style={{ color: "#A6CE41" }}>Journey</span>
-          </h2>
+          </h1>
         </div>
         <Row fluid>
         <Col xs={12} md={1} className="d-none d-lg-block">

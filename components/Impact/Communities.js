@@ -116,7 +116,7 @@ A 24-year-old resident of Gulbarga colony, G. Satyavani, counts herself to be a 
         <Col lg={4}>
         <Image
               src="./images/1.png.webp"
-              class="card-img-top img-fluid"
+              className="card-img-top img-fluid"
               alt="..."
             />
         </Col>
