@@ -338,9 +338,10 @@ button.btn-impact {
   border-width: 2px!important;
   border-color: #a6ce41!important;
   border-radius: 35px 35px 35px 35px!important;
+  padding: 10px 20px!important;
 }
 button.btn-impact a{
-  color: #fff !important;
+  color: #a6ce41!important;
   text-decoration: none !important;
 
 }
