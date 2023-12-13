@@ -609,6 +609,14 @@ hr.hr-1 {
   margin-top: 20px!important;
   border: 1px solid #ffffff!important;
 }
+.error{
+
+  color: red!important;
+}
+.btn-about a {
+  color: #1C1C1C!important;
+  text-decoration: none!important;
+}
 
 .cricle-3 {
   width: 160px!important;
