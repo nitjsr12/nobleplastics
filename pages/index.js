@@ -36,7 +36,6 @@ export default function Home() {
       <Aboutinside />
       <Unique />
       <Imagesecion />
-      <Counter />
       <Logoslider />
       <Footer />
     </>

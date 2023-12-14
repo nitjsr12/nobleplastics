@@ -25,7 +25,6 @@ function impact() {
       </Head>
       <Header/>
       <ImpactBanner/>
-      <CounterImpact/>
       <Communities/>
       <Footer/>
     </div>

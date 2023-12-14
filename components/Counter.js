@@ -1,4 +1,4 @@
-'use client';
+import dynamic from 'next/dynamic';
 import CountUp from "react-countup";
 import { Image, Container, Col, Row,Card } from "react-bootstrap";
 import React from "react";
@@ -18,7 +18,7 @@ function counter() {
           <Card className="c-impact mx-4">
             <Card.Img variant="top" src="./images/rupee.svg"
                 className="card-img-top rupee"
-                alt="..." width={60} height={60}/>
+                alt=" " width={60} height={60}/>
             <Card.Body>
               <Card.Title><CountUp
                   start={0}
@@ -39,7 +39,7 @@ function counter() {
           <Card className="c-impact mx-4">
             <Card.Img variant="top" src="./images/plants.svg"
                 className="card-img-top plants"
-                alt="..." width={60} height={60}/>
+                alt="" w idth={60} height={60}/>
             <Card.Body>
               <Card.Title>
               <CountUp
@@ -64,7 +64,7 @@ function counter() {
           <Card  xs={1} className="c-impact mx-4">
             <Card.Img variant="top" src="./images/heart.svg"
                 className="card-img-top"
-                alt="..." width={60} height={60}/>
+                alt=" " width={60} height={60}/>
             <Card.Body>
               <Card.Title><CountUp
                   start={0}
@@ -85,7 +85,7 @@ function counter() {
           <Card  className="c-impact mx-4">
             <Card.Img variant="top" src="./images/garbage.svg"
                 className="card-img-top"
-                alt="..." width={60} height={60}/>
+                alt=" " width={60} height={60}/>
             <Card.Body>
               <Card.Title>
               <CountUp
