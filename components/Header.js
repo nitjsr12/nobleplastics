@@ -10,10 +10,8 @@ function Header() {
      <nav className="navbar fixed-not navbar-expand-lg navbar-light ">
      <div class="container-fluid up-bg">
     <Link href="/" className="navbar-brand">
-    <img src="/images/Noble-logo.svg"
-    className="img-fluid logo-img"/>
+    <Image src="/images/Noble-logo.svg" className="img-fluid logo-img" width={200} height={300} alt='LOGO'/>
     </Link>
-
         <div className="d-none d-lg-block ">
             <ul className="nav navbar-nav ms-auto w-100 justify-content-end">
                 <li className="nav-item">
