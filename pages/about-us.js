@@ -1,5 +1,5 @@
 
-'use client'
+'use client';
 import React from 'react';
 import Header from '../components/Header';
 import Aboutbanner from '../components/About/Aboutbanner';

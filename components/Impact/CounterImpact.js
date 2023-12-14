@@ -1,3 +1,4 @@
+'use client';
 import CountUp from "react-countup";
 import { Image, Container, Col, Row,Card } from "react-bootstrap";
 import React from "react";

@@ -1,4 +1,4 @@
-'use client'
+'use client';
 /* eslint-disable @next/next/no-sync-scripts */
 import Head from "next/head";
 import Image from "next/image";

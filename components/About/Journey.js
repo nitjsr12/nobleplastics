@@ -1,6 +1,6 @@
-/* eslint-disable react/jsx-no-undef */
+'use client';
 import React from "react";
-import {Carousel, Image, Container, Row, Col} from 'react-bootstrap';
+import {Carousel, Container,Image, Row, Col} from 'react-bootstrap';
 
 function Journey() {
   return (
@@ -13,9 +13,8 @@ function Journey() {
         </div>
         <Row fluid>
         <Col xs={12} md={1} className="d-none d-lg-block">
-          <Image src="./images/border-1.png">
+          <Image src="./images/border-1.png"/>
 
-          </Image>
         </Col>
         <Col xs={12} md={12} lg={5} className="p-journey">
           <p>We—Noble Plastics—were incepted as an eco-social initiative by the Catalyst Group which champions the effective use of plastic waste, while promoting the well-being of people and the planet.</p>

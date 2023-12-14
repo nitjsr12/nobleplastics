@@ -1,3 +1,4 @@
+'use client';
 import '@/styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js';
