@@ -17,7 +17,7 @@ function counter() {
     <Col lg={6} xs={12}  className="impact-c ">
           <Card className="c-impact mx-4">
             <Card.Img variant="top" src="./images/rupee.svg"
-                class="card-img-top rupee"
+                className="card-img-top rupee"
                 alt="..." width={60} height={60}/>
             <Card.Body>
               <Card.Title><CountUp
@@ -38,7 +38,7 @@ function counter() {
           <Col lg={6} xs={12}  className="impact-c ">
           <Card className="c-impact mx-4">
             <Card.Img variant="top" src="./images/plants.svg"
-                class="card-img-top plants"
+                className="card-img-top plants"
                 alt="..." width={60} height={60}/>
             <Card.Body>
               <Card.Title>
@@ -63,7 +63,7 @@ function counter() {
         <Col lg={6} xs={12}  className="impact-c ">
           <Card  xs={1} className="c-impact mx-4">
             <Card.Img variant="top" src="./images/heart.svg"
-                class="card-img-top"
+                className="card-img-top"
                 alt="..." width={60} height={60}/>
             <Card.Body>
               <Card.Title><CountUp
@@ -84,7 +84,7 @@ function counter() {
           <Col lg={6} xs={12} className="impact-c ">
           <Card  className="c-impact mx-4">
             <Card.Img variant="top" src="./images/garbage.svg"
-                class="card-img-top"
+                className="card-img-top"
                 alt="..." width={60} height={60}/>
             <Card.Body>
               <Card.Title>
@@ -109,7 +109,7 @@ function counter() {
           <Col>
             {" "}
             <div className="col-12 d-flex justify-content-center align-items-center ">
-              <button type="button" class="btn btn-impact"><Link href="/impact"> LEARN MORE</Link>
+              <button type="button" className="btn btn-impact"><Link href="/impact"> LEARN MORE</Link>
                 
               </button>
             </div>
