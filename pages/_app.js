@@ -33,17 +33,9 @@ function MyApp({ Component, pageProps }) {
           })(window,document,'script','dataLayer',''GTM-PG3D8K3'');
         `}
      </Script>
+     
 
-     <noscript>
-        <iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-MTXQQBH"
-          height="0"
-          width="0"
-          style={{ display: 'none', visibility: 'hidden' }}
-        ></iframe>
-      </noscript>
 
-      
       <Component {...pageProps} />
       </>
   );
