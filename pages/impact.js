@@ -25,10 +25,11 @@ function impact() {
       </Head>
       <Header/>
       <ImpactBanner/>
+      <CounterImpact/>
       <Communities/>
       <Footer/>
     </div>
   )
 }
 
-export default impact
+export default impact 

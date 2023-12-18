@@ -15,7 +15,7 @@ function Example() {
 
   return (
     <div className="d-block d-lg-none d-xl-none d-xxl-none" >
-      <Button variant="primary"  classname="btn btn-humburger" onClick={handleShow}>
+      <Button variant="primary"  className="btn btn-humburger" onClick={handleShow}>
       <AiOutlineAlignLeft size={30} />
       </Button>
 
