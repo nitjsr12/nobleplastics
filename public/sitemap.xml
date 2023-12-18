@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>http://nobleplastics.org/</loc>
+<loc>https://nobleplastics.org/</loc>
+<lastmod>2023-07-03 06:31 +00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nobleplastics.org/about-us</loc>
+<loc>https://nobleplastics.org/about-us</loc>
+<lastmod>2023-04-14 12:07 +00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nobleplastics.org/approach</loc>
+<loc>https://nobleplastics.org/approach</loc>
+<lastmod>2023-04-14 12:16 +00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nobleplastics.org/work</loc>
+<loc>https://nobleplastics.org/work</loc>
+<lastmod>2023-04-14 12:28 +00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nobleplastics.org/impact</loc>
-</url>
-<url>
-  <loc>http://nobleplastics.org/cdn-cgi/l/email-protection</loc>
-</url>
+<loc>https://nobleplastics.org/impact</loc>
+<lastmod>2023-04-14 12:35 +00:00</lastmod>
+<priority>0.80</priority>
+</url>>
 </urlset>
